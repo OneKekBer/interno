@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Display:regular,italic);
+@import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper:not(.header) {
+  max-width: 1200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 200px;
+
+}
+
+
+
+
+
+p {
+  font-size: 22px;
+  font-family: 'Jost', sans-serif;
+}
+
+h1 {
+  font-size: 85px
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
