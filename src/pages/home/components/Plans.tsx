@@ -4,7 +4,7 @@ import { styles } from "../../../styles/styles";
 const Plans = () => {
    return (
       <div className="wrapper">
-         <div className="flex justify-between gap-4 items-center">
+         <div className="flex flex-col sm:flex-row  justify-between gap-9 items-center">
             {plans.map((plans, index) => {
                return (
                   <div key={index} className="text-center">

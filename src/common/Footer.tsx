@@ -14,10 +14,26 @@ const Footer = () => {
                lookings.
             </li>
             <li className="flex justify-between">
-               <img src={link} alt="" />
-               <img src={twitter} alt="" />
-               <img src={face} alt="" />
-               <img src={inst} alt="" />
+               <img
+                  className="hover:bg-slate-300 duration-300 p-2 rounded-full object-contain object-center w-9 h-9 "
+                  src={link}
+                  alt=""
+               />
+               <img
+                  className="hover:bg-slate-300 duration-300 p-2 rounded-full object-contain object-center w-9 h-9 "
+                  src={twitter}
+                  alt=""
+               />
+               <img
+                  className="hover:bg-slate-300 duration-300 p-2 rounded-full object-contain object-center w-9 h-9 "
+                  src={face}
+                  alt=""
+               />
+               <img
+                  className="hover:bg-slate-300 duration-300 p-2 rounded-full object-contain object-center w-9 h-9 "
+                  src={inst}
+                  alt=""
+               />
             </li>
          </ul>
          <ul>
