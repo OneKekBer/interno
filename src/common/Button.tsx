@@ -1,4 +1,5 @@
 import React, { ReactNode, MouseEvent, CSSProperties } from "react";
+import { arrow } from "../assets/assets";
 
 interface Props {
    children: ReactNode;
@@ -12,11 +13,12 @@ const Button: React.FC<Props> = ({ children, className, onClick, style }) => {
       <div
          style={style || {}}
          onClick={onClick}
-         className={`cursor-pointer w-[220px]  h-[75px] rounded-[18px] flex justify-center hover:opacity-40 duration-300 items-center  ${
+         className={`cursor-pointer w-[220px] gap-3 h-[75px] rounded-[18px] flex justify-center hover:opacity-40 duration-300 items-center  ${
             className || ""
          } `}
       >
          {children}
+         <img src={arrow} alt="" />
       </div>
    );
 };

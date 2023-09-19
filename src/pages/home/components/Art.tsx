@@ -1,7 +1,6 @@
-import React from "react";
 import { styles } from "../../../styles/styles";
 import Button from "../../../common/Button";
-import { art, hero, phone } from "../../../assets/assets";
+import { art, phone } from "../../../assets/assets";
 
 const Art = () => {
    return (

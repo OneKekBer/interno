@@ -1,4 +1,3 @@
-import React from "react";
 import { hero } from "../../../assets/assets";
 import { styles } from "../../../styles/styles";
 import Button from "../../../common/Button";

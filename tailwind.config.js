@@ -16,6 +16,7 @@ export default {
             brown: "#CDA274",
             dark: "#292F36",
             light: "#F4F0EC",
+            lightdark: "#CDA274",
          },
          fontFamily: {
             jost: ["Jost"],

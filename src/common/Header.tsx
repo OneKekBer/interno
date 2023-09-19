@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { logo } from "../assets/assets";
 
 const Header = () => {
@@ -10,15 +10,24 @@ const Header = () => {
 
                <div className="font-serif text-[50px]">Interno</div>
             </div>
-            <div className="flex justify-center gap-5">
-               <div className="cursor-pointer">Home</div>
-               <div className="cursor-pointer">Pages</div>
-               <div className="cursor-pointer">Services</div>
-               <div className="cursor-pointer">Project</div>
+            <div className="hidden md:flex justify-center gap-5">
+               <Link to="/" className="cursor-pointer">
+                  Home
+               </Link>
+               <Link to="/" className="cursor-pointer">
+                  Pages
+               </Link>
+               <Link to="/" className="cursor-pointer">
+                  Services
+               </Link>
+               <Link to="/" className="cursor-pointer">
+                  Project
+               </Link>
                <div className="cursor-pointer">Blog</div>
                <div className="cursor-pointer">Contact</div>
                <div className="cursor-pointer">Search</div>
             </div>
+            <div className="flex md:hidden">menu</div>
          </div>
       </div>
    );
