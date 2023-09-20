@@ -14,8 +14,8 @@ const Header = () => {
                <Link to="/" className="cursor-pointer">
                   Home
                </Link>
-               <Link to="/" className="cursor-pointer">
-                  Pages
+               <Link to="/about" className="cursor-pointer">
+                  About us
                </Link>
                <Link to="/" className="cursor-pointer">
                   Services
