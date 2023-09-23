@@ -1,10 +1,20 @@
 import logo from "./Logo.png";
 
+import abouttitle from "./about/abouttitle.png";
 import art from "./home/art.jpg";
 import hero from "./home/hero.jpg";
 import arrow from "./icons/arrow.png";
 import next from "./icons/next.png";
 import phone from "./icons/phone.png";
+import hwwicon1 from "./services/how we work/icon1.png";
+import hwwicon2 from "./services/how we work/icon2.png";
+import hwwicon3 from "./services/how we work/icon3.png";
+import hwwicon4 from "./services/how we work/icon4.png";
+import hww1 from "./services/how we work/1.png";
+import hww2 from "./services/how we work/2.png";
+import hww3 from "./services/how we work/3.png";
+import hww4 from "./services/how we work/4.png";
+import servtitle from "./services/servtitle.jpg";
 import op1 from "./about/opinion/1.png";
 import op2 from "./about/opinion/2.png";
 import op4 from "./about/opinion/4.png";
@@ -28,6 +38,8 @@ import link from "./icons/social/link.png";
 import twitter from "./icons/social/twitter.png";
 export {
    inst,
+   servtitle,
+   abouttitle,
    link,
    face,
    twitter,
@@ -54,4 +66,12 @@ export {
    op1,
    op2,
    op4,
+   hww1,
+   hww2,
+   hww3,
+   hww4,
+   hwwicon1,
+   hwwicon2,
+   hwwicon3,
+   hwwicon4,
 };

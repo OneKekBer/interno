@@ -5,11 +5,11 @@ const Header = () => {
    return (
       <div className="mb-0 wrapper ">
          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-2">
+            <Link to="/" className="flex items-center gap-2">
                <img className="h-9 w-9" src={logo} alt="" />
 
                <div className="font-serif text-[50px]">Interno</div>
-            </div>
+            </Link>
             <div className="hidden md:flex justify-center gap-5">
                <Link to="/" className="cursor-pointer">
                   Home
@@ -17,7 +17,7 @@ const Header = () => {
                <Link to="/about" className="cursor-pointer">
                   About us
                </Link>
-               <Link to="/" className="cursor-pointer">
+               <Link to="/services" className="cursor-pointer">
                   Services
                </Link>
                <Link to="/" className="cursor-pointer">

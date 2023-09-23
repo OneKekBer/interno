@@ -18,6 +18,24 @@ body {
 
 }
 
+.hwwgrid:first-of-type img {
+  order: 1;
+}
+
+.hwwgrid:nth-last-of-type(2) img {
+  order: 1;
+}
+
+@media (max-width:767px) {
+  .hwwgrid:first-of-type img {
+    order: 0;
+  }
+
+  .hwwgrid:nth-last-of-type(2) img {
+    order: 0;
+  }
+
+}
 
 ul {
   list-style-image: none;

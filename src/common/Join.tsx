@@ -1,5 +1,5 @@
-import { styles } from "../../../styles/styles";
-import Button from "../../../common/Button";
+import { styles } from "../styles/styles";
+import Button from "./Button";
 
 const Join = () => {
    return (

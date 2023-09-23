@@ -4,7 +4,7 @@ import Art from "./components/Art";
 import Opinion from "./components/Opinion";
 import Projects from "./components/Projects";
 import Advantages from "./components/Advantages";
-import Join from "./components/Join";
+import Join from "../../common/Join";
 
 const Home = () => {
    return (
