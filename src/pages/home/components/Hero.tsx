@@ -16,7 +16,7 @@ const Hero = () => {
                   Let Your Home
                   <br /> Be Unique
                </h2>
-               <p className={`${styles.p}`}>
+               <p className={`${styles.p} mb-[10%]`}>
                   There are many variations of the passages
                   <br /> of lorem Ipsum fromavailable, majority.
                </p>

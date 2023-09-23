@@ -6,6 +6,7 @@ import "./index.css";
 import Footer from "./common/Footer";
 import Services from "./pages/services/Services";
 import { useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
 const App = () => {
    function ScrollToTop() {
       const { pathname } = useLocation();
@@ -18,14 +19,16 @@ const App = () => {
    }
    return (
       <BrowserRouter>
-         <Header />
-         <ScrollToTop />
-         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-         </Routes>
-         <Footer />
+         <AnimatePresence>
+            <Header />
+            <ScrollToTop />
+            <Routes>
+               <Route path="/" element={<Home />} />
+               <Route path="/about" element={<About />} />
+               <Route path="/services" element={<Services />} />
+            </Routes>
+            <Footer />
+         </AnimatePresence>
       </BrowserRouter>
    );
 };
