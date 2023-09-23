@@ -15,7 +15,7 @@ const Title = ({
 
    return (
       <div
-         className="w-full min-h-[30vh] mb-[200px] flex justify-center items-end"
+         className="w-full min-h-[30vh] bg-center bg-cover mb-[200px] flex justify-center items-end"
          style={divStyle}
       >
          <div className="bg-white flex flex-col justify-center items-center w-3/2 py-2 px-[10%] rounded-t-[20px] h-1/2">
