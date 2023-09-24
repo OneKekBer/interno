@@ -4,6 +4,7 @@ import abouttitle from "./about/abouttitle.png";
 import art from "./home/art.jpg";
 import hero from "./home/hero.jpg";
 import arrow from "./icons/arrow.png";
+import menu from "./icons/menu.png";
 import next from "./icons/next.png";
 import phone from "./icons/phone.png";
 import hwwicon1 from "./services/how we work/icon1.png";
@@ -40,6 +41,7 @@ export {
    inst,
    servtitle,
    abouttitle,
+   menu,
    link,
    face,
    twitter,

@@ -39,7 +39,7 @@ const vars = [
 
 const HWW = () => {
    return (
-      <div className="wrapper bg-light rounded-[80px] p-[100px]">
+      <div className="wrapper bg-light rounded-[80px] p-5 md:p-[100px]">
          <div className="text-center mb-10">
             <div className={`${styles.h3}`}>How We Work</div>
             <div className={`${styles.p}`}>

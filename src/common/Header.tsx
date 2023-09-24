@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { logo } from "../assets/assets";
+import { logo, menu } from "../assets/assets";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { styles } from "../styles/styles";
@@ -89,7 +89,7 @@ const Header = () => {
                })}
             </motion.div>
          )}
-         <div className="mb-0 wrapper ">
+         <div className="mb-0 wrapper">
             <div className="flex justify-between items-center">
                <Link to="/" className="flex items-center gap-2">
                   <img className="h-9 w-9" src={logo} alt="" />
@@ -106,10 +106,10 @@ const Header = () => {
                   })}
                </div>
                <div
-                  className="flex md:hidden z-20 cursor-pointer hover:text-slate-400 duration-300"
+                  className="flex md:hidden z-20 cursor-pointer p-2 rounded-full  hover:bg-slate-200 duration-300"
                   onClick={handleMenuOpen}
                >
-                  menu
+                  <img className="w-9 h-9" src={menu} alt="" />
                </div>
             </div>
          </div>
