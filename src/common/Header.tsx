@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { logo, menu } from "../assets/assets";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -58,7 +58,11 @@ const links = [
 
 const Header = () => {
    const [isOpen, setIsOpen] = useState(false);
-
+   const navigate = useNavigate();
+   const handleLinkClick = ({ link }: { link: string }) => {
+      handleMenuOpen();
+      navigate(link);
+   };
    const handleMenuOpen = () => {
       setIsOpen((prev) => !prev);
    };
@@ -76,15 +80,16 @@ const Header = () => {
                {" "}
                {links.map((nav, index) => {
                   return (
-                     <motion.a
-                        className={`text-black hover:text-opacity-60 duration-200 ${styles.h4} overflow-hidden`}
+                     <motion.div
+                        className={`text-black cursor-pointer hover:text-opacity-60 duration-200 ${styles.h4} overflow-hidden`}
                         variants={navVars}
                         key={index}
-                        href={nav.link}
+                        onClick={() => {
+                           handleLinkClick({ link: nav.link });
+                        }}
                      >
-                        {" "}
                         {nav.title}
-                     </motion.a>
+                     </motion.div>
                   );
                })}
             </motion.div>
